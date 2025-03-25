@@ -1,2 +1,2 @@
 # data_pipeline_from_sftp_to_databricks
-An ETL pipeline to import data from SFTP and exporting into databricks delta table after making some column level transport operations
+An Extract, Transform, Load (ETL) pipeline to facilitate the importation of data from an SFTP server and its subsequent export to a Databricks Delta table. This pipeline will perform various column-level transformation operations to ensure the data is in the desired format and meets quality standards. The transformation processes will primarily be implemented using Python and PySpark, leveraging their powerful data manipulation capabilities to efficiently handle and process the data throughout the ETL stages.
